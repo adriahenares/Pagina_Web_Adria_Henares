@@ -16,7 +16,10 @@ header {
     float: left;
 }
 #pages {
-    width: 55%;
+    width: 70%;
+    float: right;
+}
+#allpages {
     float: right;
 }
 .linkpages {
@@ -84,9 +87,10 @@ footer {
     display: flex;
     width: 100%;
     padding-top: 150px;
-    height: 1000px;
+    height: 600px;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    background-color:whitesmoke;
 }
 .cards {
     margin: 10px;
@@ -105,4 +109,77 @@ footer {
 }
 .cardstext p {
     font-size: 17px;
+}
+.infocf {
+    height: 1000px;
+    padding-top: 110px;
+    padding-left: 30px;
+}
+#fotocursos {
+    width: 60%;
+}
+#table {
+    padding-left: 50px;
+    background-color:whitesmoke;
+    padding-bottom: 50px;
+}
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    margin-left: 10px;
+}
+td {
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#all {
+    padding-top: 80px;
+    background-color:whitesmoke;
+    width: 100%;
+    height: 839px;
+}
+#left {
+    padding-top: 20px;
+    padding-left: 50px;
+    width: 50%;
+    display: inline-block;
+}
+#left h2 {
+    margin-bottom: 15px;
+}
+label {
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 150px;
+}
+input {
+    width: 150px;
+    border-radius: 15px;
+    padding: 10px;
+    border: 2px solid #eee;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    background-color: white;
+    margin-bottom: 15px;
+}
+#Missatge {
+    width: 600px;
+    height: 300px;
+}
+#Enviar {
+    transition: background-color .5s;
+}
+#Enviar:hover {
+    background-color: bisque;
+}
+#right {
+    position: absolute;
+    display: inline-block;
+    padding-top: 20px;
+}
+#right p {
+    margin-top: 15px;
+}
+iframe {
+    margin-top: 20px;
 }
