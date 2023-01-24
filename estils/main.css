@@ -260,7 +260,7 @@ hr {
     color: blue;
 }
 #recursos {
-    height: 750px;
+    height: 650px;
     background-color: whitesmoke;
     padding-top: 80px;
 }
@@ -272,7 +272,7 @@ hr {
     padding-left: 50px;
 }
 #recursostext ul {
-    padding-left: 35px;
+    padding-left: 40px;
 }
 #recursostext ul li {
     margin-top: 10px;
@@ -284,5 +284,4 @@ hr {
 #recursostext div{
     float: left;
     margin-right: 50px;
-    width: 100%;
 }
