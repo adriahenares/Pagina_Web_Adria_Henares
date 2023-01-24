@@ -111,7 +111,7 @@ footer {
     font-size: 17px;
 }
 #infocf {
-    height: 1650px;
+    height: 1700px;
     padding-top: 70px;
     background-color: whitesmoke;
 }
@@ -224,5 +224,65 @@ iframe {
     float: right;
 }
 hr {
+    width: 99.9%;
+}
+#secretaria {
+    background-color: whitesmoke;
+    height: 800px;
+    padding-top: 80px;
+}
+#secretariaimg {
+    width: 100%;
+}
+#secretariatext {
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 100px;
+    float: left;
+}
+#secretariatext p{
+    margin-top: 10px;
+}
+#preinscripcions {
+    float: right;
+    padding-top: 20px;
+    padding-right: 200px;
+}
+#preinscripcions ul {
+    margin-left: 30px;
+}
+
+#preinscripcions ul li{
+    margin-top: 10px;
+}
+#preinscripcions ul li a{
+    text-decoration: underline;
+    color: blue;
+}
+#recursos {
+    height: 750px;
+    background-color: whitesmoke;
+    padding-top: 80px;
+}
+#recursos img {
+    width: 100%;
+}
+#recursostext {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+#recursostext ul {
+    padding-left: 35px;
+}
+#recursostext ul li {
+    margin-top: 10px;
+}
+#recursostext li a {
+    text-decoration: underline;
+    color: blue;
+}
+#recursostext div{
+    float: left;
+    margin-right: 50px;
     width: 100%;
 }
