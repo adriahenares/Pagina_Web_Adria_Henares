@@ -284,4 +284,5 @@ hr {
 #recursostext div{
     float: left;
     margin-right: 50px;
+    width: 100%;
 }
