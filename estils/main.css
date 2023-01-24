@@ -260,7 +260,7 @@ hr {
     color: blue;
 }
 #recursos {
-    height: 650px;
+    height: 700px;
     background-color: whitesmoke;
     padding-top: 80px;
 }
@@ -276,6 +276,7 @@ hr {
 }
 #recursostext ul li {
     margin-top: 10px;
+    width: 390px;
 }
 #recursostext li a {
     text-decoration: underline;
