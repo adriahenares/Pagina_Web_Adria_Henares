@@ -110,13 +110,35 @@ footer {
 .cardstext p {
     font-size: 17px;
 }
-.infocf {
-    height: 1000px;
-    padding-top: 110px;
-    padding-left: 30px;
+#infocf {
+    height: 1700px;
+    padding-top: 70px;
+    background-color: whitesmoke;
 }
-#fotocursos {
-    width: 60%;
+.fotocursos {
+    margin-top: 10px;
+    width: 100%;
+}
+.infotext {
+    padding-left: 20px;
+    padding-top: 25px;
+    width: 850px;
+}
+.infotext ol{
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-bottom: 25px;
+}
+.infotext ol li{
+    display: inline-block;
+    width: 400px;
+    margin-bottom: 2px;
+    height: 50px;
+}
+li ul li p{
+    padding-left: 30px;
+    list-style-type: square;
+    width: 150px;
 }
 #table {
     padding-left: 50px;
@@ -182,4 +204,84 @@ input {
 }
 iframe {
     margin-top: 20px;
+}
+#cfimg {
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 120px;
+    margin-right: 70px;
+}
+#cfimg2 {
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 200px;
+    margin-left: 70px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+hr {
+    width: 99.9%;
+}
+#secretaria {
+    background-color: whitesmoke;
+    height: 800px;
+    padding-top: 80px;
+}
+#secretariaimg {
+    width: 100%;
+}
+#secretariatext {
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 100px;
+    float: left;
+}
+#secretariatext p{
+    margin-top: 10px;
+}
+#preinscripcions {
+    float: right;
+    padding-top: 20px;
+    padding-right: 200px;
+}
+#preinscripcions ul {
+    margin-left: 30px;
+}
+
+#preinscripcions ul li{
+    margin-top: 10px;
+}
+#preinscripcions ul li a{
+    text-decoration: underline;
+    color: blue;
+}
+#recursos {
+    height: 750px;
+    background-color: whitesmoke;
+    padding-top: 80px;
+}
+#recursos img {
+    width: 100%;
+}
+#recursostext {
+    padding-top: 20px;
+    padding-left: 50px;
+}
+#recursostext ul {
+    padding-left: 35px;
+}
+#recursostext ul li {
+    margin-top: 10px;
+}
+#recursostext li a {
+    text-decoration: underline;
+    color: blue;
+}
+#recursostext div{
+    float: left;
+    margin-right: 50px;
 }
